@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  font-family: Poppins;
+  color: #333;
+  box-sizing: border-box;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 20px 0px;
+}
+.logo p a {
+  text-decoration: none;
+  font-size: 20;
+  color: white;
+  font-weight: bold;
+  color: deeppink;
+}
+.items ul {
+  padding-top: 2px;
+}
+.items ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 8px;
+}
+.items ul li a {
+  text-decoration: none;
+  color: white;
+}
+.items ul li a:hover {
+  color: deeppink;
+}
+.info {
+  margin: 20px;
+}
+.info h2 {
+  color: deeppink;
+}
